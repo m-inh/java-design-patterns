@@ -33,6 +33,7 @@ jobs:
         key: jdp-sonar-pr-{{ checksum "pom.xml" }}
     - run: |
         MAVEN_OPTS="-Xmx3000m" xvfb-run ./mvnw -B clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
+             -Dsonar.pullrequest.key=${1} \
              -Dsonar.pullrequest.branch=${CIRCLE_BRANCH} \
              -Dsonar.pullrequest.base=master
     - save_cache:
