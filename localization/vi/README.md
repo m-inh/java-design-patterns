@@ -17,7 +17,7 @@ Ngôn ngữ khác : [**zh**](localization/zh/README.md), [**ko**](localization/k
 
 # Giới thiệu
 
-.
+..
 Mẫu thiết kế là phương pháp tốt nhất, được chuẩn hóa mà một lập trình viên có thể sử dụng để giải quyết các vấn đề chung khi thiết kế một ứng dụng hoặc hệ thống.
 
 Mẫu thiết kế có thể đẩy nhanh quá trình phát triển bằng cách cung cấp các mô hình đã được kiểm nghiệm, chứng minh.
